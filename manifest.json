@@ -5,10 +5,6 @@
         "licence" : "CC BY-NC 4.0",
         "url" : "https://www.mygene.info"
     },
-    "dumper" : {
-        "data_url" : "https://www.cancergenomeinterpreter.org/data/cgi_biomarkers_latest.zip",
-        "uncompress" : true
-    },
     "uploader" : {
         "parser" : "parser:load_data",
         "on_duplicates" : "ignore"
