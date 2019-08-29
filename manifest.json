@@ -6,7 +6,7 @@
         "url" : "https://www.mygene.info"
     },
     "dumper" : {
-        "data_url" : "https://raw.githubusercontent.com/codeforamerica/ohana-api/master/data/sample-csv/addresses.csv",
+        "data_url" : "http://localhost:8080/dataupload/mysrc/nodes_neo4j.csv",
         "uncompress" : false,
         "release" : "version:get_release"
     },
