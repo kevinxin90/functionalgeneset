@@ -44,6 +44,7 @@ def load_data(data_folder=None):
                 if _id not in pathway_ids:
                     pathway_ids.add(_id)
                     yield {'_id': _id,
+                           'go': _id,
                            'name': record['term'],
                            'type': 'bp'}
     # load molecular function
@@ -65,6 +66,7 @@ def load_data(data_folder=None):
                 if _id not in pathway_ids:
                     pathway_ids.add(_id)
                     yield {'_id': _id,
+                           'go': _id,
                            'name': record['term'],
                            'type': 'mf'}
     # load cellular component
@@ -86,5 +88,6 @@ def load_data(data_folder=None):
                 if _id not in pathway_ids:
                     pathway_ids.add(_id)
                     yield {'_id': _id,
+                           'go': _id,
                            'name': record['term'],
                            'type': 'cc'}
