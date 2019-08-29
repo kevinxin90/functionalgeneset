@@ -5,6 +5,11 @@
         "licence" : "CC BY-NC 4.0",
         "url" : "https://www.mygene.info"
     },
+    "dumper" : {
+        "data_url" : "https://raw.githubusercontent.com/codeforamerica/ohana-api/master/data/sample-csv/addresses.csv",
+        "uncompress" : false,
+        "release" : "version:get_release"
+    },
     "uploader" : {
         "parser" : "parser:load_data",
         "on_duplicates" : "ignore"
